@@ -80,14 +80,14 @@ if exist ".\WADs\freedoom1.wad" (
     call exit
 )
 
-if exist ".\Engine\GZDoom\gzdoom.exe" (
-    set "engine=.\Engine\GZDoom\gzdoom.exe"
+if exist ".\Engine\UZDoom\uzdoom.exe" (
+    set "engine=.\Engine\UZDoom\uzdoom.exe"
 ) else (
     color 0c
     cls
     echo.
-    echo GZDoom.exe not found in /Engine/GZDoom/...
-    echo You must have GZDoom installed here or manually define the ^^!engine^^! path in this script.
+    echo UZDoom.exe not found in /Engine/UZDoom/...
+    echo You must have UZDoom installed here or manually define the ^^!engine^^! path in this script.
     pause
     call exit
 )
